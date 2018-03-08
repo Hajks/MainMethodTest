@@ -11,8 +11,11 @@ namespace MainMethodTest
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>
+        /// 
+
+        //Checking how method Main works.
         [STAThread]
-        static void Main()
+        static void NotMain() //Changed method name "Main" to NotMain. Main method can be find in class "AnotherClass"
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
